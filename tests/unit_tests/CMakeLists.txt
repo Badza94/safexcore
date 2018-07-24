@@ -70,7 +70,10 @@ set(unit_tests_sources
   varint.cpp
   ringct.cpp
   output_selection.cpp
-  vercmp.cpp)
+  vercmp.cpp
+  get_base_reward.cpp
+  is_whole_coin_amount.cpp
+  get_reward_for_reward_window.cpp)
 
 set(unit_tests_headers
   unit_tests_utils.h)
